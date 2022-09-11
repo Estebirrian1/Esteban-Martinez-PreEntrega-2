@@ -4,6 +4,12 @@
     box-sizing: 0;
 }
 
+body {
+    background-image: url(./assets/images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cuadro {
     display: block;
     position: relative;
@@ -41,6 +47,36 @@ img {
     z-index: -1;
 }
 
-a {
+header {
+    background-color: green;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1 {
+    padding-left: 30px;
+}
+
+.navbar a {
     text-decoration: none;
+    color: aquamarine;
+}
+
+.navbar__contenido {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar__contenido a {
+    text-decoration: none;
+    color: white;
+
+}
+.navbar__contenido li {
+    list-style-type: none;
+    padding: 10px 40px 0px 15px;
+    font-size: 20px;
 }
