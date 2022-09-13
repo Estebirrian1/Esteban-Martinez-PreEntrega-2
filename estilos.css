@@ -44,3 +44,7 @@ img {
 a {
     text-decoration: none;
 }
+
+.barra {
+    background-image: linear-gradient(to left, blue, red);
+}
