@@ -166,3 +166,54 @@ footer a {
     color: red;
     font-style:italic
 }
+
+@media (max-width: 576px) {
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .navbar__contenido {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar h1 {
+        justify-content: center;
+    }
+    .carta p {
+        color: white;
+    }
+
+    .cartas {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .carta {
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        justify-content: center;
+        width: 33rem;
+        height: 33.5rem;
+
+    }
+    .carta p {
+        text-align: center;
+    }
+    .carta img {
+        left: 3.25rem;
+    }
+    header {
+        width: 100%;
+    }
+    .boton {
+        left: 12rem;
+    }
+    .katarina {
+        top: 3rem;
+    }
+    .boton__ultimo {
+        bottom: 5.5rem;
+    }
+    
+}
