@@ -187,7 +187,7 @@ footer a {
     .cartas {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 2rem
     }
     .carta {
         display: grid;
@@ -207,7 +207,7 @@ footer a {
         width: 100%;
     }
     .boton {
-        left: 12rem;
+        left: 13rem;
     }
     .katarina {
         top: 3rem;
